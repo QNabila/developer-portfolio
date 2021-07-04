@@ -1,47 +1,73 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
 }
-.coral-color{
-    color: coral;
+.coral-color {
+  color: coral;
 }
-section{
-    display: flex;
-    margin-bottom: 100px;
+.flexible-container {
+  display: flex;
+  margin-bottom: 100px;
 }
-.half-width
-{
-    width:50%;
-    padding-left: 5%;
+.half-width {
+  width: 50%;
+  padding-left: 5%;
 }
-.half-width img{
-    width:70%;
-    padding-left: 30px;
-    padding-top: 50px;
+.half-width img {
+  width: 70%;
+  padding-left: 30px;
+  padding-top: 50px;
 }
-.link-button{
-    text-decoration: none;
-    background-image:linear-gradient(coral,rgb(255, 196, 128));
-    padding:8px 20px;
-    color: rgb(255, 255, 255);
-    font-weight: 400;
-    border-radius: 5px;
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(coral, rgb(255, 196, 128));
+  padding: 8px 20px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  border-radius: 5px;
 }
 
-.top-banner{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
 }
-.dream-big img{
-    width:80%;
-    margin-top: -90px;
-    margin-left: -50px;
+.dream-big img {
+  width: 80%;
+  margin-top: -90px;
+  margin-left: -50px;
 }
-.dream-big{
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+.experience-item {
+  width: 40%;
+  box-shadow: 10px 10px 30px rgb(226, 226, 226);
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 25px;
+}
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+#wordpress-experince {
+  border-left: 6px solid;
+
+  border-image: linear-gradient(coral, rgb(202, 170, 140));
+  border-image-slice: 1;
+}
+#Fullstack-experince{
+    border-left: 6px solid;
+
+    border-image: linear-gradient(rgb(255, 159, 80), rgb(1, 10, 10));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
